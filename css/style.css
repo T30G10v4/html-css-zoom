@@ -28,6 +28,7 @@ html {
 img {
 
   max-width: 100%;
+  /* max-height: 100%; */
 
 }
 
@@ -91,13 +92,7 @@ img {
 
 
 /*COMMON*/
-.content {
 
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1200px;
-
-}
 
 /*------------------------------------------SPECIFIED RULES-----------------------------------------------------*/
 
@@ -112,13 +107,61 @@ img {
 main {
 
   height: calc(100% - 100px);
+  width: 100%;
   background-color: black;
+  padding: 50px 50px 10px;
 
 }
 
+.content {
+
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+
+  /*DEBUG*/
+  
+  border: 1px solid white;
+
+}
 footer {
 
   height: 100px;
   background-color: #222222;
+
+}
+
+.row {
+
+  height: calc(100% / 5);
+
+  /*DEBUG*/
+  border: 1px solid orange;
+
+}
+
+.col {
+
+  width: calc(100% / 7);
+  text-align: center;
+  padding: 5px 5px 5px 0px;
+
+  /*DEBUG*/
+  border: 1px solid violet;
+
+}
+
+.col img {
+
+  max-height: 100%;
+
+}
+
+.col .name {
+
+  bottom: 0px;
+  left: 0px;
+  background-color: aqua;
+
 
 }
