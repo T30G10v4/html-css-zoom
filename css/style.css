@@ -122,6 +122,8 @@ img {
 
 }
 
+/*------------------------------------------MAIN RULES-----------------------------------------------------------*/
+
 .viewport {
 
   width: 100%;
@@ -136,6 +138,28 @@ main {
   width: 100%;
   background-color: black;
   padding: 80px 80px 10px;
+
+}
+
+.speaker-view,
+.zoom {
+
+  top: 30px;
+  background-color: #4a4a4a;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+
+.speaker-view {
+
+  right: 150px;
+
+}
+
+.zoom {
+
+  right: 80px;
 
 }
 
