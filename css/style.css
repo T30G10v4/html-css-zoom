@@ -102,6 +102,20 @@ img {
 
 /*------------------------------------------SPECIFIED RULES-----------------------------------------------------*/
 
+/*UTILITY*/
+
+.color-white{
+
+  color: white;
+
+}
+
+.color-green {
+
+  color: #4bc800;
+
+}
+
 .viewport {
 
   width: 100%;
@@ -176,9 +190,8 @@ footer {
   
   height: 100px;
   width: calc(100% / 3);
-
-  /*DEBUG*/
-  background-color: aqua;
+  padding-left: 30px;
+  
 }
 
 .footer-center {
@@ -186,6 +199,7 @@ footer {
   
   height: 100px;
   width: calc(100% / 3);
+  justify-content: space-between;
 
   /*DEBUG*/
   background-color: yellow;
