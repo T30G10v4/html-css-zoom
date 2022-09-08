@@ -116,6 +116,12 @@ img {
 
 }
 
+.color-red {
+
+  color: red;
+
+}
+
 .viewport {
 
   width: 100%;
@@ -199,10 +205,9 @@ footer {
   
   height: 100px;
   width: calc(100% / 3);
-  justify-content: space-between;
+  justify-content: space-around;
 
-  /*DEBUG*/
-  background-color: yellow;
+  
 }
 
 .footer-right {
@@ -210,9 +215,9 @@ footer {
   
   height: 100px;
   width: calc(100% / 3);
+  justify-content: space-between;
 
-  /*DEBUG*/
-  background-color: orange;
+  
 
 }
 
@@ -224,5 +229,19 @@ footer {
   justify-content: center;
   align-items: center;
   margin: 0 .2em;
+
+}
+
+.footer-button {
+
+  line-height: 100px;
+  background-color: #4a4a4a;
+  padding: 0 30px;
+
+}
+
+.footer-right .footer-element {
+
+  padding-left: 28px;
 
 }
