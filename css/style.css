@@ -72,6 +72,12 @@ img {
 
 }
 
+.font-size-15 {
+
+  font-size: 1.5rem;
+
+}
+
 .font-size-20 {
 
   font-size: 2rem;
@@ -155,9 +161,54 @@ footer {
 
 .col .name {
 
-  bottom: 0px;
+  bottom: 5px;
   left: 0px;
   background-color: aqua;
+  opacity: 0.4;
 
+
+}
+
+/*FOOTER*/
+
+.footer-left {
+
+  
+  height: 100px;
+  width: calc(100% / 3);
+
+  /*DEBUG*/
+  background-color: aqua;
+}
+
+.footer-center {
+
+  
+  height: 100px;
+  width: calc(100% / 3);
+
+  /*DEBUG*/
+  background-color: yellow;
+}
+
+.footer-right {
+
+  
+  height: 100px;
+  width: calc(100% / 3);
+
+  /*DEBUG*/
+  background-color: orange;
+
+}
+
+.footer-element,
+.footer-arrow {
+
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 .2em;
 
 }
