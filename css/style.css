@@ -138,6 +138,7 @@ main {
   width: 100%;
   background-color: black;
   padding: 80px 80px 10px;
+  overflow: auto;
 
 }
 
@@ -181,7 +182,7 @@ footer {
 
 .row {
 
-  height: calc(100% / 5);
+  /*height: calc(100% / 5);*/
 
 
 
